@@ -1,2 +1,0 @@
-# Banky
-Web design 
