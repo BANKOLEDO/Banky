@@ -1,1 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Registration form</title>
+  <meta name="viewport" content="width=device-width" initial scale="2">
+  <body bgcolor="#142640">
+	<center>
+   <h1 span style="color:white">
 
+<b>
+
+
+<i>
+
+
+Registration form
+
+</i>
+
+
+</b>
+
+
+</h1>
+
+   </center>
+
+	   <center>
+ <p span style="color:white"><i>Please fill out this form with the required information.....
+  </i>
+
+ </p>
+
+ </center>
+   <label for="Enter your name"><span style="color:white" required="">
+
+Enter your name:
+
+</span>
+
+</label>
+	
+   <br>
+
+   <input type="text" id="Enter your name" placeholder="John Doe" required="">
+	 <br><br>
+
+ <label for="State of origin">
+
+ <span style="color:white" style="style:serif">
+	 State of origin:
+
+  </span>
+
+  </label>
+   
+   <br>
+
+   <input type="text" id="State of origin" placeholder="Lagos State">
+	<br><br>
+
+
+<label for="Date of birth">
+  <span style="color:white">
+	
+	 Date of birth:
+
+	</span>
+   
+	</label>
+	 <br>
+	
+	<input type="date" id="Date of birth" placeholder="18/05/2000">
+
+ <br><br>
+	   
+  <label for="Address">
+	<span style="color:white">
+   
+	 Address:
+	</span>
+
+	</label>
+
+	 <br>
+
+	<input type="text" id="Address">
+	  <br><br>
+ <hr style="color:#AA98A9">
+
+	  <br><br>
+
+
+	  <!-- radio button -->
+
+  <input type="radio" id="personal account">
+
+   <label for="personal account"> 
+
+	<span style="color:white">
+
+
+   Personal account 
+
+   </span>
+   </label>
+	   <br><br>
+
+	<input type="radio" id="business account">
+	
+  <label for="business account">
+	  <span style="color:white">
+
+	Business account
+	
+	</span>
+	</label>
+	 <br><br>
+
+   <!-- checkbox -->
+   
+  <input type="checkbox" id="I accept all terms and conditions.">
+	<label for="I accept all terms and conditions.">
+
+   <span style="color:white">
+	 <u>
+	 I accept all terms and conditions. 
+	 </u>
+	 </span>
+	 </label>
+	 <br><br>
+	<hr style="color:white"> 
+	 <br>
+
+	<main>
+	  <p><span style="color:white">
+	<b>
+	 Upload your profile picture
+	</b>
+	</span>
+	 </p>
+	 <input type="file" id="my file">
+	<br><br>
+
+   <label for="input your age">
+	<span style="color:white">
+	<i>Input your age </i>(<i>years</i>)
+</i>:
+   </span>
+	</label>
+	 <br>
+	  <input type="input your age" id="demo"></input>
+	
+<!-- this is for drop down -->
+	 <h4>
+	 <span style="color:white">
+	 <i>How did you hear about us</i>?
+	</span>
+	</h4>
+	 
+	 <select name="feedback" id="text">
+	<option value="5">(select one)
+	</option>
+	 <option value="4">
+A friend
+	</option>
+	 <option value="3">
+A Colleague
+	 </option>
+	 <option value="2">
+A Relative 
+	 </option>
+	<option value="1">
+Through Ads
+	 </option>
+	</select>
+	</main>
+	<p>
+	<span style="color:white">
+	<i>Provide your bio</i>:
+	</span>
+	</p>
+	<textarea name="bio" id="bio" row="20" cols="30" placeholder=" busy... 👨‍💻👨‍💻👨‍💻">
+  </textarea>
+  <br><br><br>
+   <p class="form-submit text-center tv-offspace-top-20 tv-offspace-botttom-0">
+<input name="submit" id="submit" class="btn btn-mod btn-orange  btn-large btn-round" value="submit " type="submit">
+  </p>
+   <br>
+	 <hr style="color:white">
+	 <br><br><br><br>
+<!-- For complaints or suggestions -->
+<p>
+<span style="color:white">
+<font size="2">
+For Complaint or Suggestions fill the form below....<i>
+previous users only.
+   </i>
+  </font>
+   </span>
+</p>
+  <div class="contact-wrapper"><div class="contact-form"><form id="contact-form-1"><div class="form-group row"><div class="col-md-4 col-sm-12 tv-offspace-xs-bottom-20"><input class="form-control placeholder-fix" id="Name" name="name" placeholder="Name" required="" type="text"></div><div class="col-md-4 col-sm-12"><input class="form-control placeholder-fix" id="Email" name="email" placeholder="Email" required="" type="email">
+</div>
+<div class="col-md-4 col-sm-12">
+<input class="form-control placeholder-fix" id="Subject" name="subject" placeholder="Subject" type="text">
+   </div></div>
+<div class="form-group row">
+<div class="col-sm-12">
+<textarea class="form-control placeholder-fix" name="message" rows="3" placeholder="Your Message">
+ </textarea>
+   </div></div>
+<p class="form-submit text-center tv-offspace-top-20 tv-offspace-botttom-0">
+<input name="submit" id="submit" class="btn btn-mod btn-orange  btn-large btn-round" value="submit message" type="submit">
+  </p>
+	 </form>
+  </div></div></div>
+  </section>
+  <foot>
+ <span style="color:white">
+ <center>
+ Copyright @banky
+ </center>
+  </span>
+  </foot>
